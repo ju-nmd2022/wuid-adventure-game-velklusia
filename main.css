@@ -44,23 +44,19 @@ h2 {
     border-radius: 25px;
     }
 
-/* Max-width on the main image. */
-
 img {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
   }
-/* Padding for the main image on every page. */
 
 .content {
     padding: 5px;
 }
 
 
-/* The following two classes are used for the book item. 
-The first to not displau the book, and the second to show it when we get a value and a key.*/
+/* I have gotten help with this game from Lotte, Lucas and I got inspiration about how the game could work from Ida and Charlie.*/
 
 .bookHidden {
     display: none;
@@ -71,9 +67,6 @@ The first to not displau the book, and the second to show it when we get a value
     max-height: 70px;
 }
 
-/* The following two classes are used for the present item. 
-The first to not displau the present, and the second to show it when we get a value and a key.*/
-
 .presentHidden {
     display: none;
 }
@@ -83,9 +76,6 @@ The first to not displau the present, and the second to show it when we get a va
     max-height: 70px;
 }
 
-/* The following two classes are used for the heels item. 
-The first to not displau the heels, and the second to show it when we get a value and a key.*/
-
 .heelsHidden {
     display: none;
 }
@@ -94,7 +84,6 @@ The first to not displau the heels, and the second to show it when we get a valu
     max-width: 100px;
     max-height: 70px;
 }
-
 
 .winHidden {
     max-width: 50px;
