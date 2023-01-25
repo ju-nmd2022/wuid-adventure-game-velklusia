@@ -1,0 +1,105 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    max-width: 560px;
+    background-color:  	#224de3;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Bitter', serif;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+a {
+    color: black;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+a:hover {
+    color: cadetblue;
+}
+a:visited{
+    color: black;
+}
+
+h2 {
+    font-size: medium;
+}
+
+ button {
+    background-color: white;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    min-width: 100px;
+    height: 70px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    }
+
+/* Max-width on the main image. */
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+/* Padding for the main image on every page. */
+
+.content {
+    padding: 5px;
+}
+
+
+/* The following two classes are used for the book item. 
+The first to not displau the book, and the second to show it when we get a value and a key.*/
+
+.bookHidden {
+    display: none;
+}
+
+.bookVisible {
+    max-width: 100px;
+    max-height: 70px;
+}
+
+/* The following two classes are used for the present item. 
+The first to not displau the present, and the second to show it when we get a value and a key.*/
+
+.presentHidden {
+    display: none;
+}
+
+.presentVisible {
+    max-width: 100px;
+    max-height: 70px;
+}
+
+/* The following two classes are used for the heels item. 
+The first to not displau the heels, and the second to show it when we get a value and a key.*/
+
+.heelsHidden {
+    display: none;
+}
+
+.heelsVisible {
+    max-width: 100px;
+    max-height: 70px;
+}
+
+
+.winHidden {
+    max-width: 50px;
+}
+
+.win {
+    max-width: 50px;
+}
